@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Networking Lab-University of Cambodia</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.jpg">
+</head>
+<style>
+    body {
+        background-color: white;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: darkblue;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: green;
+    }
+    li.dropdown {
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    div.gallery {
+        border: 2px solid gold;
+    }
+
+    div.gallery :hover{
+        border: 2px solid gold;
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    div.desc {
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999% ;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999% ;
+            margin: 6px 0;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .responsive {
+        width: 100% ;
+        }
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+     <meta charset="UTF-8">
+            <meta name="viewport" content="width=1.0, initial-scale=1.0">
+            <title>lap1</title>
+         <style>
+               .scroll-text {
+                            font-size: 25px;
+                             background-color: darkblue;
+                              color: white;
+                             padding: 15px;
+                            }
+              .rose {
+                     background-color: darkblue; 
+                color:white;
+                padding: 0px 0px;
+                font-size: xx-large;
+                font-weight: bold;
+                margin: 15px 0px 15px 0px;
+                text-align: center;
+              }
+              .ro{
+                font-size: 17px;
+              }
+              .rin {
+                     display: flex;
+                     justify-content: space-between;
+                     flex-wrap: center;
+                     gap: 10px;
+              }
+              body {
+                     unicode-bidi: isolate;
+              }
+              .ry{
+                     text-align: center;
+                     font-size: 23px;
+                  }
+                th {
+                font-weight: bold;
+                 }
+            .san{
+              color:white;
+              background-color:darkblue;
+              text-align: center;
+              font-size: 20px;
+            }
+            .si{
+              text-align: center;
+             
+            }
+            .sa{
+               width:30px;
+              height: 30px;
+            }
+            table {
+                    border-style:groove;
+                    border-color:red;
+                     border-width: 1px;
+                     width: 50%;
+                     height: 10px;
+                     margin: 0 auto;
+                      text-align: center;
+                      width:100%;
+                    }
+                 th, td {
+                    border: 1px red solid;
+                   padding: 6px;
+                   font-family: "Times New Roman", serif;
+           }
+                th {
+                font-weight: bold;
+            } 
+
+            #footer {
+            background-color: darkblue;
+            color: white;
+            clear: both;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+           
+          
+    </style>      
+</style>
+</head>
+<div>
+<img src="image/banner.jpg" alt="Image" style="width:100%;">
+</div>
+
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html" target="_blank">News</a></li>
+    <li><a href="faculty.html" target="_blank">Faculty Members</a></li>
+    <li><a href="training.html" target="_blank">Professional Training</a></li>
+    <li><a href="videos.html" target="_blank">Videos CoST</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Bachelor Programs</a>
+        <div class="dropdown-content">
+         <a href="IT.html" target="_blank"> Information Technology <i style="color:blue;"> Since 2003</i></a>
+         <a href="CS.html" target="_blank"> Computer Science <i style="color:blue;"> Since 2003</i></a>
+         <a href="ETC.html" target="_blank"> Electronics and Telecommunications <i style="color:blue;"> Since 2003</i></a>
+         <a href="GDM.html" target="_blank"> Graphic Design and Multimedia <i style="color:blue;"> New 2026</i></a>
+         <a href="BMIT.html" target="_blank"> Business Management Information Technology <i style="color:blue;"> New 2026</i></a>
+         <a href="NECS.html" target="_blank"> Network Engineering and Cyber Security <i style="color:blue;"> New 2026</i></a>
+         <a href="DSAI.html" target="_blank"> Data Science and Artificial Intelligence <i style="color:blue;"> New 2026</i></a>
+        </div>
+    </li>
+     <li class="dropdown">
+     <a href="javascript:void(0)" class="dropbtn">Computer Labs</a>    
+     <div class="dropdown-content">
+        <a href="Lab1.html"target="_blank"> Multimedia Lab</a>
+        <a href="Lab2.html"target="_blank"> E-learning Lab</a>
+        <a href="Lab3.html"target="_blank"> Networking Lab</a>
+        <a href="Lab4.html"target="_blank"> IT Center Lab</a>
+     </div>
+    </li>
+</ul>
+<body>
+    <p class="ro">Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia.</p>     
+        <div class="rose">Networking Lab</div>
+        <div class="rin">
+        <img src="image/7.jpg".jp alt="lap1" style="width: 50%; height: 40;">
+        <img src="image/13.jpg" alt="lap1" style="width: 50%; height: 40;">
+        </div>
+        <p class="ry" ><strong>Computer Labs University of Cambodia</p></strong>
+        <table>
+  <tr>
+    <th>Multimedia Lab</th>
+    <th>E-Learning Lab</th>
+    <th>Networking Lab</th>
+    <th>IT-center Lab</th>
+  </tr>
+  <tr>
+    <td>Graphic Design</td>
+    <td>Graphic Design</td>
+    <td>Networking Design</td>
+    <td>Computer Applications</td>
+  </tr>
+  <tr>
+    <td>Computer Applications</td>
+    <td >Videos Contents</td>  
+  </tr>
+  <tr>
+    <td>Mobile Applications</td>   
+  </tr>
+  </table>
+    
+   <div id="footer">
+<img src="image/uc.png" width="40" height="40">
+Copyright University of Cambodia
+</div>
+</body>
+</html>
